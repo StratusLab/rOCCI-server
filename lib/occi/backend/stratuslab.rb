@@ -7,7 +7,7 @@ require 'occi/backend/opennebula/auth/server_cipher_auth'
 
 require 'occi/backend/manager'
 
-# OpenNebula backend based mixins
+#OpenNebula backend based mixins
 #require 'occi/extensions/one/Image'
 #require 'occi/extensions/one/Network'
 #require 'occi/extensions/one/VirtualMachine'

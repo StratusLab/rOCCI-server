@@ -15,8 +15,8 @@
 ##############################################################################
 
 ##############################################################################
-# Description: OpenNebula Backend
-# Author(s): Hayati Bice, Florian Feldhaus, Piotr Kasprzak
+#Description: OpenNebula Backend
+#Author(s): Hayati Bice, Florian Feldhaus, Piotr Kasprzak
 ##############################################################################
 
 require 'occi/log'

@@ -59,7 +59,7 @@ module OCCI
           @backend.check(@model)
           OCCI::Log.debug('StatusLab backend initialized')
         when 'http://rocci.info/server/backend#ec2'
-          require 'occi/backend/ec2'
+          require  'occi/backend/ec2'
           @model.register(OCCI::Backend::EC2.kind_definition)
           @backend.check(@model)
           OCCI::Log.debug('EC2 backend initialized')
