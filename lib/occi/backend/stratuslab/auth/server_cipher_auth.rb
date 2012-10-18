@@ -20,7 +20,7 @@ require 'digest/sha1'
 require 'base64'
 require 'fileutils'
 
-# Server authentication class. This method can be used by OpenNebula services
+# Server authentication class.  This method can be used by OpenNebula services
 # to let access authenticated users by other means. It is based on OpenSSL 
 # symmetric ciphers
 module OpenNebula

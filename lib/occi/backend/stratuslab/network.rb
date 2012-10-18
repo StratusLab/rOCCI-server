@@ -30,7 +30,7 @@ module OCCI
       # ---------------------------------------------------------------------------------------------------------------------
       module Network
 
-        # location cache mapping OCCI locations to OpenNebula VM IDs
+        # location  cache mapping OCCI locations to OpenNebula VM IDs
         @@location_cache = {}
 
         TEMPLATENETWORKRAWFILE = 'network.erb'
