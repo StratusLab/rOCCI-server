@@ -52,6 +52,12 @@ module OCCI
           @backend = OCCI::Backend::OpenNebula.new(backend.kind, backend.mixins, backend.attributes, backend.links)
           @backend.check(@model)
           OCCI::Log.debug('Opennebula backend initialized')
+        when 'http://rocci.info/server/backend#stratuslab'
+          require 'occi/backend/stratuslab'
+          @model.register(OCCI::Backend::OpenNebula.kind_definition)
+          @backend = OCCI::Backend::OpenNebula.new(backend.kind, backend.mixins, backend.attributes, backend.links)
+          @backend.check(@model)
+          OCCI::Log.debug('StatusLab backend initialized')
         when 'http://rocci.info/server/backend#ec2'
           require 'occi/backend/ec2'
           @model.register(OCCI::Backend::EC2.kind_definition)
